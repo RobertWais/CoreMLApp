@@ -10,6 +10,7 @@
 		2E3AEA542140E6B4008118FD /* RoundedShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3AEA532140E6B4008118FD /* RoundedShadowView.swift */; };
 		2E3AEA562140E7CE008118FD /* RoundedShadowBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3AEA552140E7CE008118FD /* RoundedShadowBtn.swift */; };
 		2E3AEA582140E800008118FD /* RoundedShadowImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3AEA572140E800008118FD /* RoundedShadowImageView.swift */; };
+		2E3AEA5A2142458A008118FD /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2E3AEA592142458A008118FD /* SqueezeNet.mlmodel */; };
 		2E52A3AF214068E800FDA8DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E52A3AE214068E800FDA8DF /* AppDelegate.swift */; };
 		2E52A3B1214068E800FDA8DF /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E52A3B0214068E800FDA8DF /* CameraVC.swift */; };
 		2E52A3B4214068E800FDA8DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E52A3B2214068E800FDA8DF /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 		2E3AEA532140E6B4008118FD /* RoundedShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowView.swift; sourceTree = "<group>"; };
 		2E3AEA552140E7CE008118FD /* RoundedShadowBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowBtn.swift; sourceTree = "<group>"; };
 		2E3AEA572140E800008118FD /* RoundedShadowImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowImageView.swift; sourceTree = "<group>"; };
+		2E3AEA592142458A008118FD /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
 		2E52A3AB214068E800FDA8DF /* CoreMLApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreMLApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E52A3AE214068E800FDA8DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E52A3B0214068E800FDA8DF /* CameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 		2E52A3AD214068E800FDA8DF /* CoreMLApp */ = {
 			isa = PBXGroup;
 			children = (
+				2E3AEA592142458A008118FD /* SqueezeNet.mlmodel */,
 				2E52A3C52140694A00FDA8DF /* Resources */,
 				2E52A3C42140693B00FDA8DF /* Views */,
 				2E52A3C32140693200FDA8DF /* Controllers */,
@@ -174,6 +177,7 @@
 				2E3AEA542140E6B4008118FD /* RoundedShadowView.swift in Sources */,
 				2E52A3B7214068E800FDA8DF /* CoreMLApp.xcdatamodeld in Sources */,
 				2E52A3B1214068E800FDA8DF /* CameraVC.swift in Sources */,
+				2E3AEA5A2142458A008118FD /* SqueezeNet.mlmodel in Sources */,
 				2E3AEA562140E7CE008118FD /* RoundedShadowBtn.swift in Sources */,
 				2E3AEA582140E800008118FD /* RoundedShadowImageView.swift in Sources */,
 				2E52A3AF214068E800FDA8DF /* AppDelegate.swift in Sources */,
